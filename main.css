@@ -27,11 +27,11 @@
 }
 
 /* Top subreddit bar/header */
-#sr-header-area
+.res-nightmode #sr-header-area
 {
     background-color: #191919 !important;    
 }
-#sr-header-area *
+.res-nightmode #sr-header-area *
 {
     color: #999 !important;
 }
@@ -50,7 +50,7 @@
 }
 
 /* Stickied link color */
-.thing.stickied .title
+.res-nightmode .thing.stickied .title
 {
     color: hsl(0, 0%, 87%) !important;
 }
@@ -72,59 +72,59 @@
 }
 
 /* Hide 'daily reddit gold goal' */
-div.goldvertisement
+.res-nightmode div.goldvertisement
 {
     display: none;
 }
 
 /* Make thumbnails less strong */
-a.thumbnail.nsfw,
-a.thumbnail.self
+.res-nightmode a.thumbnail.nsfw,
+.res-nightmode a.thumbnail.self
 {
     opacity: 0.3 !important;
 }
 
 /* 'Create your own subreddit' box */
-.side ul.content,
-body .side .sidebox.create,
-body .side .sidebox.create *
+.res-nightmode .side ul.content,
+.res-nightmode body .side .sidebox.create,
+.res-nightmode body .side .sidebox.create *
 {
     background-color: #191919 !important;
     color: #ddd;
 }
 
 /* 'Submit a new link/text post' buttons */
-.sidebox.submit,
-.sidebox.submit *
+.res-nightmode .sidebox.submit,
+.res-nightmode .sidebox.submit *
 {
     background-color: #191919 !important;    
 }
-.sidebox.submit *
+.res-nightmode .sidebox.submit *
 {
     color: #ccc !important;
 }
 
 /* Extra padding between moderator names, etc. */
-.sidecontentbox ul.content li
+.res-nightmode .sidecontentbox ul.content li
 {
     margin: 4px;
 }
 
 /* Link coloring for moderator names, etc. */
-.sidecontentbox ul.content a
+.res-nightmode .sidecontentbox ul.content a
 {
     color: #aaa !important;
 }
 
 /* /r/toolbox */
-#moderation_tools ul li a
+.res-nightmode #moderation_tools ul li a
 {
     background-color: rgba(0, 0, 0, 0) !important;
     color: #aaa;
 }
 
 /* /r/toolbox */
-a.tb-bracket-button
+.res-nightmode a.tb-bracket-button
 {
     background-color: rgba(0, 0, 0, 0) !important;
     border: none !important;
@@ -132,43 +132,46 @@ a.tb-bracket-button
 }
 
 /* /r/toolbox */
-.tb-action-button
+.res-nightmode .tb-action-button
 {
     background-color: #000 !important;
 }
 
 /* 'hot', 'new', 'rising' tabs */
-ul.tabmenu *
+.res-nightmode ul.tabmenu *
 {
     color: #aaa !important;
 }
 
-div.menuarea
+.res-nightmode div.menuarea
 {
     border: none;
 }
 
 /* Karma, settings, etc. */
-#header-bottom-right *
+.res-nightmode #header-bottom-right *
 {
     color: #bbb !important;
 }
 
 /* Never Ending Reddit page separator */
-.NERPageMarker
+.res-nightmode .NERPageMarker
 {
     border: none;
 }
 
 /* Left slide-out panel on the frontpage */
-.listing-chooser, .grippy, .grippy::before, .grippy::after
+.res-nightmode .listing-chooser, 
+.res-nightmode .grippy, 
+.res-nightmode .grippy::before, 
+.res-nightmode .grippy::after
 {
     background-color: #222 !important;
 }
 
 /* Remove ugly backgrounds from the overview sidebar */
-.gold-accent,
-.server-seconds
+.res-nightmode .gold-accent,
+.res-nightmode .server-seconds
 {
     background-color: rgba(0, 0, 0, 0) !important;
     border: none;
