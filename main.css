@@ -1,3 +1,5 @@
+@-moz-document url-prefix("https://www.reddit.com/") {
+
 /* Header color */
 .res-nightmode #header
 {
@@ -175,4 +177,5 @@
 {
     background-color: rgba(0, 0, 0, 0) !important;
     border: none;
+}
 }
